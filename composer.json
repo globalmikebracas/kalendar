@@ -1,0 +1,22 @@
+{
+    "name": "globaloxs/yii2-kalendar",
+    "description": "Calendario simple",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," calendario"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "MikeBracas",
+            "email": "miguel.bracamontes@globaloxs.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/zabuto_calendar": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "globaloxs\\kalendar\\": ""
+        }
+    }
+}
