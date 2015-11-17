@@ -12,11 +12,17 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/zabuto_calendar": "*"
+        "ziscloud/zabuto_calendar": "*"
     },
     "autoload": {
         "psr-4": {
             "globaloxs\\kalendar\\": ""
         }
+    },
+    "repositories":
+    {
+        "type": "git",
+        "url": "https://github.com/globalmikebracas/kalendar"
     }
+
 }
